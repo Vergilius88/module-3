@@ -75,7 +75,7 @@ main {
   color: rgb(3, 169, 243);
 }
 
-.section {
+.unit {
   display: inline-block;
   box-sizing: content-box;
   width: 420px;
@@ -90,11 +90,11 @@ main {
   margin-bottom: 80px;
 }
 
-.section img {
+.unit img {
   display: block;
 }
 
-.section p {
+.unit p {
   display: inline-block;
   box-sizing: content-box;
   width: 420px;
