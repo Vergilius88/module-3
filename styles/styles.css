@@ -6,6 +6,23 @@ body {
   color: rgb(98, 98, 98);
 }
 
+header {
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 84px 0px;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 900px;
+}
+
 .caption {
   font-family: "Ubuntu";
   font-size: 14px;
@@ -26,7 +43,7 @@ body {
   color: rgb(98, 98, 98);
 }
 
-h2 {
+.section h2 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   display: inline-block;
@@ -38,24 +55,6 @@ h2 {
   padding-bottom: 42px;
 }
 
-.button {
-  font-size: 20px;
-}
-
-.lifestyle :hover {
-  color: rgb(3, 169, 243);
-}
-
-li {
-  list-style: none;
-}
-
-.navigation li {
-  list-style: none;
-  display: inline-block;
-  box-sizing: content-box;
-}
-
 .navigation {
   text-transform: uppercase;
   box-sizing: content-box;
@@ -64,74 +63,52 @@ li {
   padding: 0px;
 }
 
-header {
+.branch {
+  margin: 0 120px 0 auto;
+  list-style: none;
+  list-style: none;
+  display: inline-block;
   box-sizing: content-box;
-  margin: 0 auto;
 }
 
-nav {
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 84px 0px;
-  text-align: center;
+.branch :hover {
+  color: rgb(3, 169, 243);
 }
 
-.lifestyle {
-  margin: 0px 118px 0px auto;
-}
-.photodiary {
-  margin-right: 100px;
-}
-.music {
-  margin-right: 95px;
-}
-
-main {
-  margin: 0 auto;
-  width: 900px;
-}
-
-section {
+.section {
   display: inline-block;
   box-sizing: content-box;
   width: 420px;
+  margin-bottom: 110px;
 }
 
-img {
+.left {
+  margin-right: 56px;
+}
+
+.last {
+  margin-bottom: 80px;
+}
+
+.section img {
   display: block;
 }
 
-p {
+.section p {
   display: inline-block;
   box-sizing: content-box;
   width: 420px;
   margin: 0;
 }
 
-.one_row_left {
-  margin: 0px 56px 110px 0px;
-}
-
-.one_row_right {
-  margin: 0px 0px 110px 0px;
-}
-
-.second_row_left {
-  margin: 0px 56px 110px 0px;
-}
-
-.second_row_right {
-  margin: 0px 0px 110px 0px;
-}
-
-.third_row_left {
-  margin: 0px 56px 60px 0px;
-}
-.third_row_right {
-  margin: 0px 0px 60px 0px;
-}
-
-button {
+.button {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
   display: block;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding-bottom: 92px;
+  border: 0px;
+  background-color: rgb(255, 255, 255);
 }
