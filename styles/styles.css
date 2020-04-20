@@ -27,6 +27,8 @@ body {
 }
 
 h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
   display: inline-block;
   width: 420px;
   box-sizing: content-box;
