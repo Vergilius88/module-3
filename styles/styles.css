@@ -90,11 +90,11 @@
   margin-bottom: 80px;
 }
 
-.section img {
+.picture {
   display: block;
 }
 
-.section p {
+.paragraph {
   display: inline-block;
   box-sizing: content-box;
   width: 420px;
